@@ -1,0 +1,17 @@
+Source: python-ftputil
+Section: python
+Priority: optional
+Maintainer: Zack Williams, University of Arizona <zdw@cs.arizona.edu>
+Standards-Version: 3.9.5
+Build-Depends: debhelper (>= 9), python-setuptools, python-all-dev
+
+Package: python-ftputil
+Architecture: all
+Depends: ${misc:Depends}, ${python:Depends} 
+Description: High-level FTP client library
+ ftputil is a high-level FTP client library for the Python programming
+ language. ftputil implements a virtual file system for accessing FTP servers,
+ that is, it can generate file-like objects for remote files. The library
+ supports many functions similar to those in the os, os.path and shutil
+ modules. ftputil has convenience functions for conditional uploads and
+ downloads, and handles FTP clients and servers in different timezones.

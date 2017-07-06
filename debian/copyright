@@ -1,0 +1,11 @@
+Format: http://dep.debian.net/deps/dep5
+Upstream-Name: python-ftputil
+Upstream-Contact: Zack Williams <zdw@cs.arizona.edu>
+Source: https://github.com/open-cloud-deps/python-ftputil
+
+Files:*
+License: BSD-3-clause
+Copyright: 2016 Stefan Schwarzer <sschwarzer@sschwarzer.net>
+
+License: BSD-3-clause
+ Found in `/usr/share/common-licenses/BSD-3-clause`
